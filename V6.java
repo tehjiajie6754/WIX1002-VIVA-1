@@ -7,10 +7,13 @@ import java.util.Scanner;
 
 public class V6 {
 
+    // For the sake of readability , we define a helper method
+
     /**
      * Checks whether a character represents a digit between '2' and '9'.
      * @param character the character to check
      * @return true if the character is a digit from '2' to '9', false otherwise
+     * 
      * character comparison is possible because of java using ASCII values
      * '2' to '9' are in consecutive order in ASCII table (50 to 57)
      */
